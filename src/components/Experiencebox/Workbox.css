@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@600&display=swap');
+.Workbox{
+    display:flex;
+    flex-direction: column;
+    border: 2px dotted white;
+    border-radius:2px;
+    width:200px;
+    height:150px;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    overflow: hidden;
+    padding:20px;
+    background-color:rgb(248, 82, 4);
+}
+.Workbox > p {
+    padding:10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Josefin sans',sans-serif;
+}
+.Workbox > h4{
+    font-size:20px;
+}
