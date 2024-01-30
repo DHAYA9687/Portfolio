@@ -36,7 +36,7 @@
     font-size: 30px;
     color:white;
 }
-.Contact__icons> a> button >{
+.Contact__icons > a> button >span{
     color: white, !important;
 }
 
