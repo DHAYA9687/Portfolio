@@ -2,8 +2,8 @@ import LinearProgress from "@material-ui/core/LinearProgress";
 import React from "react";
 import { Element } from "react-scroll";
 import image from "../../assets/image.jpg";
-import "./Skillset.css";
-function Skillset() {
+import "./SkillSet.css";
+function SkillSet() {
   return (
     <Element name="Skills" className="SkillContainer">
       <div className="Skill__image">
@@ -64,4 +64,4 @@ function Skillset() {
   );
 }
 
-export default Skillset;
+export default SkillSet;

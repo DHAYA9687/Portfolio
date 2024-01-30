@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Work from "./components/Experience/Work";
 import Header from "./components/Header/Header";
-import Skillset from "./components/SkillContainer/Skillset";
+import SkillSet from "./components/SkillContainer/SkillSet";
 import TopContainer from "./components/Topcontainer/TopContainer";
 import Contact from "./components/contact/Contact";
 import MyProjects from "./components/project/MyProjects";
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <TopContainer />
-      <Skillset />
+      <SkillSet />
       <MyProjects />
       <Work />
       <Contact />
